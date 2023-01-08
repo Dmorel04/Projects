@@ -29,6 +29,6 @@ VaR = np.sqrt(horizon) * np.sqrt(variance) * (norm.ppf(1 - confidence_level))
 expected_return = returns.mean()
 risk_reward_ratio = expected_return / VaR
 print(volatility)
-print("The expected percent change return of AAPL stock is: ",expected_return)
+print("The expected percent change return of AAPL stock based on mean daily percent change is: ",expected_return)
 print("The value at risk of AAPL stock is:",VaR)
 print("The risk-reward ratio of AAPL stock is:", risk_reward_ratio)
