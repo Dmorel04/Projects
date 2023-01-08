@@ -30,5 +30,5 @@ expected_return = returns.mean()
 risk_reward_ratio = expected_return / VaR
 print(volatility)
 print("The expected percent change return of AAPL stock is: ",expected_return)
-print("The value at risk of AAPL stock is:",VaR, "implying the stock has a high probability of making profit")
+print("The value at risk of AAPL stock is:",VaR)
 print("The risk-reward ratio of AAPL stock is:", risk_reward_ratio)
